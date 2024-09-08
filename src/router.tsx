@@ -47,6 +47,7 @@ export default function Router() {
                 <Route element={<AuthLayout />}>
                     <Route path='/404' element={<NotFound />} />
                 </Route>
+                
             </Routes>
         </BrowserRouter>
     )
